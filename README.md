@@ -1,10 +1,10 @@
 # Thyroid Segmentation with Fast-SCNN (mmsegmentation)
 
-This repository contains the configuration file and instructions for training a Fast-SCNN model for thyroid image segmentation using the mmsegmentation framework.
+This repository contains the configuration file and instructions for training models for thyroid image segmentation using the mmsegmentation framework.
 
 ## 1. Introduction
 
-This project aims to segment thyroid regions in medical images using the Fast-SCNN architecture.  The provided `thyroid_fastscnn.py` configuration file defines the model, training pipeline, and evaluation metrics specifically tailored for this task.
+This project aims to segment thyroid regions in medical images.
 
 ## 2. Prerequisites
 
@@ -20,8 +20,3 @@ This project aims to segment thyroid regions in medical images using the Fast-SC
     mim install mmcv-full
     pip install -v -e .
     ```
-
-## 3. Dataset Preparation
-
-Prepare your thyroid image segmentation dataset in the following directory structure:
-
